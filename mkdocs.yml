@@ -1,0 +1,44 @@
+site_name: Sales Guru
+
+site_description: SalesGuru documentation
+repo_url: https://github.com/devtolmachev/soft_marketing
+site_author: DevTolmachev
+
+theme:
+  icon:
+    logo: material/account
+  favicon: favicon.png
+
+  name: material
+  language: en
+  features:
+    - navigation.path
+    - navigation.tabs
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.top
+
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+plugins:
+  - search
+  - mkdocstrings
+
+extra:
+  alternate:
+    - name: English
+      link: /en
+      lang: en
+    - name: Русский
+      link: /ru
+      lang: ru
+
+copyright: Copyright &copy; 2024 <a href="https://t.me/dev_tolmachev">Daniil Tolmachev</a>.
